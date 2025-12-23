@@ -36,7 +36,7 @@
 - 🗄️ 提供自动清理函数和定时任务示例
 - 🗄️ 默认保留30天数据（可配置）
 
-## [1.0.0] - 2024-12-22
+## [1.0.0] - 2025-12-23
 
 ### 新增
 - ✨ 跨设备实时在线状态追踪
@@ -65,5 +65,5 @@
 - ✅ 使用 Vitest 添加完整的单元测试
 - ✅ 测试覆盖：构造函数、登录/登出、心跳机制、自动清理等
 
-[Unreleased]: https://github.com/yourusername/supabase-online-tracker/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/yourusername/supabase-online-tracker/releases/tag/v1.0.0
+[Unreleased]: https://github.com/leisair/Supabase-Online-Tracker/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/leisair/Supabase-Online-Tracker/releases/tag/v1.0.0
