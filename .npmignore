@@ -1,0 +1,24 @@
+# 开发文件
+.git/
+.gitignore
+.vscode/
+.idea/
+node_modules/
+
+# 文档（保留在 npm 包中）
+# docs/
+# examples/
+
+# 测试和构建
+coverage/
+*.log
+.env
+.env.local
+
+# 临时文件
+*.tmp
+*.swp
+.DS_Store
+
+# 源码映射（可选，如果不想发布）
+# dist/*.map

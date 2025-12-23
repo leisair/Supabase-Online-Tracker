@@ -1,0 +1,57 @@
+{
+  "name": "supabase-online-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "基于 Supabase 的跨设备实时在线状态管理库，专为管理平台设计",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "sql",
+    "examples"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "supabase",
+    "online-status",
+    "presence",
+    "realtime",
+    "heartbeat",
+    "tracker",
+    "admin",
+    "management",
+    "education",
+    "training"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/supabase-online-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/supabase-online-tracker/issues"
+  },
+  "homepage": "https://github.com/yourusername/supabase-online-tracker#readme",
+  "peerDependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "rollup": "^4.9.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "vitest": "^1.0.0",
+    "happy-dom": "^12.10.3"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+
+# 编辑器
+.vscode/
+.idea/
+
+# 测试覆盖率
+coverage/
+
+# 临时文件
+*.tmp
+*.swp
